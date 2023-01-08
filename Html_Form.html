@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html> 
+      <head>
+   <meta charset="UTF-8">
+    <title> HTML Form practice </title>
+<style>
+  body{
+    
+    text-align: center;
+  }
+  form{
+    border: 2px solid black;
+  }
+</style>
+      </head>
+
+<body >
+      <form>
+            <h1>Registration Form</h1>
+      <div >
+           <label for="fullname">FullName:</label>
+           <input Type="text" name="fullname" id="fullname" required>
+
+       </div></br>
+
+         <div >
+           <label for="email">Email:</label>
+           <input Type="email" name="email" id="email">
+
+       </div></br>
+           
+         
+         <div >
+           <label for="password">Password:</label>
+           <input Type="password" name="password" id="password">
+
+       </div></br>
+
+           <div >
+           <label for="dob">Date Of Birth:</label>
+           <input Type="date" name="dob" id="dob">
+
+       </div></br>
+
+           <div >
+           <label for="photo">Choose Your Photo:</label>
+           <input Type="file" name="photo" id="photo">
+
+           </div></br>
+            
+            <div >
+           <label for="gender">Gender:</label>
+           <input Type="radio" name="gender" id="gender" value="male">Male
+           <input Type="radio" name="gender" id="gender" value="female">Female
+         
+           </div></br>
+
+               <div >
+           <label for="religion">Religion:</label>
+           <input Type="checkbox" name="religion" id="Muslim" value="Muslim"> Islam
+           <input Type="checkbox" name="religion" id="Hindu" value="Hindu">Hindu
+           <input Type="checkbox" name="religion" id="christian" value="christian">christian
+           <input Type="checkbox" name="religion" id="Buddho" value="Buddho">Buddhist
+         
+           </div></br>
+
+           <div>
+                <label for="department"> Department:</label>
+                <select name="department">
+                        <option value="cse"> CSE</option>
+                        <option value="eee"> EEE</option>
+                        <option value="law"> LLB</option>
+                        <option value="eng"> ENG</option>
+                    
+                </select>
+                </div>
+
+               <div>
+              <label for="message">Message:</label></br>
+               <textarea cols="30" rows="20"></textarea>
+                </div>
+
+                <div>
+                  <input Type="button" value="Submit">
+                  <input Type="reset" value="clear">
+
+                </div>
+
+
+
+     
+
+
+      </form>
+
+</body>
+
+
+
+
+</html>
