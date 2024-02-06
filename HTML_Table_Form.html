@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table and Form</title>
+    <style>
+        table{
+            border: 2px solid rgb(50, 32, 32);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        caption{
+            font-size: x-large;
+            font-weight: bolder;
+            color:brown;
+            padding: 4px;
+        }
+        thead > tr >th{
+            border-bottom: 1px solid blue;
+            border-collapse: collapse;
+            padding: 3px;
+        }
+        tbody > tr > td{
+            
+            background-color: aqua;
+            padding: 5px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        tbody > tr >td:hover{
+            background-color: bisque;
+            font-weight: 700;
+            color: brown;
+        }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Scooty Bike Price 2024
+      </caption>
+      <thead>
+        <tr>
+            <th>Sl No.</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Price</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+            <td>1.</td>
+            <td>Suzuki</td>
+            <td>Access 125</td>
+            <td>2018</td>
+            <td>$1700</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Suzuki</td>
+            <td>Access 125(N)</td>
+            <td>2024</td>
+            <td>$2200</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Suzuki</td>
+            <td>BurgMann</td>
+            <td>2019</td>
+            <td>$3500</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>TVS</td>
+            <td>NTorq 125</td>
+            <td>2020</td>
+            <td>$2200</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
