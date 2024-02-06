@@ -33,6 +33,45 @@
             font-weight: 700;
             color: brown;
         }
+        div{
+            border: 2px solid brown;
+            padding: 10px;
+            margin: 8px;
+            border-radius: 7px;
+        }
+        div > p{
+            color: blue;
+            font-size: x-large;
+            font-weight: 800;
+            text-align: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+            margin: 0 auto;
+            border: 2px solid yellowgreen;
+            padding: 15px;
+            border-radius: 8px;
+        
+        }
+        label{
+            padding: 4px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        input{
+            padding: 3px;
+            margin-top: 3px;
+        }
+     
+        input[type='submit'] {
+    background-color: aqua;
+}
+input[type='reset']{
+    background-color: red;
+    color:white
+}
     </style>
   </head>
   <body>
@@ -81,5 +120,31 @@
         </tr>
       </tbody>
     </table>
+
+    <div>
+        <p>Fiil Up the Form</p>
+        <form >
+            <label for="name"> Your Name:
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+            </label>
+            <label for="email">Your Email<input type="email" name="email" id="email" placeholder="Enter your Email"></label>
+            <label for="age">Your Age
+                <input type="number" name="age" id="age" min="18">
+            </label>
+            <label for="gender">Gender
+                <input type="radio" name="gender" id="male">Male
+                <input type="radio" name="gender" id="female">Female
+            </label>
+            <label for="Cousrse">Courses</label>
+            <select name="course" id="course">
+                <option value="CSE-101">CSE-101</option>
+                <option value="CSE-102">CSE-102</option>
+                <option value="CSE-103">CSE-103</option>
+                <option value="CSE-104">CSE-104</option>
+            </select>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
   </body>
 </html>
